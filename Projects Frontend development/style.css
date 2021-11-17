@@ -1,0 +1,77 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    background-color: blueviolet;
+    font-size: 1.3rem;
+    overscroll-behavior-y: none;
+  }
+
+.box {
+    border: 3px solid indigo;
+    border-radius: 20px;
+    font-size: xx-large;
+    color:Indigo ;  
+}
+
+a {
+  padding: 0.8rem;
+  color: azure;
+  font-size: 1.5rem;
+}
+  
+.square {
+   position: relative;
+   left: 5px;
+   top: 10px;
+   font-size: 1.5rem;
+   border: 6px dotted aqua ;
+   border-radius: 10px;
+  }
+
+ 
+  .cube {
+   position: relative;
+   background-color: cornflowerblue;
+   border-radius: 6rem;
+   font-size: 1.5rem;
+  }
+
+ .progress bar {
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   height: 8px;
+   width: 0%;
+   z-index: 100;
+   transition: width 0.3 ease-out;
+  }
+
+  .circle  {
+    position: relative;
+    background-color: chocolate;
+    font-size: 1.5rem;
+    border: double;
+  }
+
+  .triangle {
+    position: relative;
+    background-color: darkolivegreen;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: dashed;
+  }
+
+  img {
+    margin-top: 1%;
+    border-radius: 10%;
+  }
+
+  nav{
+    margin-right: 10%;
+    position: static;
+    display:inline-block;
+  }
+
+  section {
+    margin: 1rem 2rem;
+  }
